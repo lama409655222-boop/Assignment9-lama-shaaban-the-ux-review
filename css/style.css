@@ -1,0 +1,159 @@
+/* Reset Base */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+body{
+  font-family: 'Inter', sans-serif;
+}
+span, a {
+  color: inherit;
+  display: inline-block;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+ .bg-Purple{
+  background-color: #6C63FF ;
+  background-image: linear-gradient(to left,  #5c61f0 ,#6C63FF );
+ }
+
+.text-purple{
+  color: #6C63FF ;
+ }
+.buttonadd{
+  border: 1px solid #6C63FF !important ;
+  background-color: #6C63FF  !important;
+  transition: all 0.3s ;
+
+}
+.buttonadd:hover{
+ transform: scale(1.05);
+ transform:translate(-5px,-5px);
+  box-shadow: 0 4px 15px rgba(102, 50, 250, 0.4); /* بنفسجي نيون */}
+
+ .imageuser{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  
+ }
+
+.loge{
+  width: 50px;
+  height: 50px;
+  
+  
+}
+.icon{
+    width: 30px;
+  height: 30px;
+  border: 3px solid white;
+   text-align: center;
+}
+.icon.star{
+  top: -3px;
+  right: -9px;
+  background-color:#ffb900;
+ 
+}
+.icon.heart{
+ bottom: -3px;
+  right: -9px;
+}
+.purple-show{
+  box-shadow: 0 4px 15px rgba(102, 50, 250, 0.4); /* بنفسجي نيون */
+}
+.warning-show{
+  box-shadow: 0 4px 15px rgba(254, 250, 137, 0.4); /* أحمر نيون */
+}
+.primary-show{
+  box-shadow: 0 4px 15px rgba(108, 178, 253, 0.4); /* أحمر نيون */
+}
+.danger-show{
+  box-shadow: 0 4px 15px rgba(246, 91, 29, 0.4); /* أحمر نيون */
+}
+body{
+  background-color: #f4fbf9;
+}
+input:focus, select:focus, textarea:focus {
+  outline: none !important; /* إزالة الإطار عند التركيز */
+  box-shadow: none !important;; /* تأثير الظل عند التركيز */
+  border-color:none !important;; /* تغيير لون الحدود عند التركيز */
+}
+
+.modal-footer{
+  border-top: none;
+  justify-content:space-between !important;
+  flex-wrap: nowrap !important;
+}
+input,select,textarea{
+  background-color: #F5F5F5 !important;
+  padding: 10px !important;
+  border:1px #d7d7d7 solid !important;
+  border-radius: 10px ;
+}
+.bg-black-40{
+ background-color: #e1e1e1;
+}
+.profile-avatar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+/* دائرة الصورة */
+.avatar-box {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #2b7fff; /* اللون الأزرق الدائري */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gradient-red{
+  background-image: linear-gradient(to bottom, rgb(248, 234, 234)  , white );
+}
+.gradient-yelley{
+  background-image: linear-gradient(to bottom, rgb(247, 244, 229)0%  , white );
+}
+.avatar-box img {
+    width: 100%;
+    height: 100%;
+    
+   
+    object-fit: cover;
+}
+
+/* زر Change Photo */
+.change-photo-btn {
+    background-color: #f3f4f6;
+    color: #374151;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.2s ease;
+}
+
+.change-photo-btn:hover {
+    background-color: #e5e7eb;
+}
