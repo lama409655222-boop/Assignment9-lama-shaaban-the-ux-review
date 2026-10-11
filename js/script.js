@@ -274,7 +274,7 @@ function deletphone(index) {
         timerProgressBar: false, 
         showConfirmButton: false 
       });
-      displayContacts(contactData);
+      displayContacts();
     }
   });
 }
